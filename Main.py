@@ -74,7 +74,7 @@ class Solution:
 
 
 # read the string text
-text = input("Enter a word : ")
+text = input()
 
 # find the length of text
 length_of_text = len(text)
@@ -103,7 +103,7 @@ for index in range(length_of_text):
 
 # finally print whether string text is palindrome or not.
 if is_palindrome:
-    print("The word that was given , " + text + ", is a palindrome.");
+    print("The word, " + text + ", is a palindrome.");
 else:
-    print("The word that was given , " + text + ", is not a palindrome.")
+    print("The word, " + text + ", is not a palindrome.")
 
